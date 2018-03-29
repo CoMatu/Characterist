@@ -1,4 +1,4 @@
-package ru.human_factors.characterist;
+package ru.human_factors.characterist.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import ru.human_factors.characterist.MyItemRecyclerViewAdapter;
+import ru.human_factors.characterist.R;
 import ru.human_factors.characterist.dummy.DummyContent;
 import ru.human_factors.characterist.dummy.DummyContent.DummyItem;
-
-import java.util.List;
 
 /**
  * A fragment representing a list of Items.

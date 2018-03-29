@@ -1,11 +1,11 @@
 package ru.human_factors.characterist;
 
-import android.app.ListFragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import ru.human_factors.characterist.ItemFragment.OnListFragmentInteractionListener;
+import ru.human_factors.characterist.fragments.ItemFragment;
+import ru.human_factors.characterist.fragments.ItemFragment.OnListFragmentInteractionListener;
 import ru.human_factors.characterist.dummy.DummyContent;
 
 public class MainActivity extends AppCompatActivity implements OnListFragmentInteractionListener{
