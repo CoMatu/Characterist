@@ -1,4 +1,4 @@
-package ru.human_factors.characterist;
+package ru.human_factors.characterist.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import ru.human_factors.characterist.R;
 import ru.human_factors.characterist.fragments.ItemFragment.OnListFragmentInteractionListener;
 import ru.human_factors.characterist.dummy.DummyContent.DummyItem;
 

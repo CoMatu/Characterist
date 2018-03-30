@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import ru.human_factors.characterist.MyItemRecyclerViewAdapter;
+import ru.human_factors.characterist.adapters.MyItemRecyclerViewAdapter;
 import ru.human_factors.characterist.R;
 import ru.human_factors.characterist.dummy.DummyContent;
 import ru.human_factors.characterist.dummy.DummyContent.DummyItem;
