@@ -34,7 +34,7 @@ public class CompRVAdapter extends RecyclerView.Adapter<CompRVAdapter.ViewHolder
     public class ViewHolder extends RecyclerView.ViewHolder {
         public ViewHolder(View itemView) {
             super(itemView);
-            cardView = (CardView)itemView.findViewById(R.id.cv);
+            cardView = (CardView)itemView.findViewById(R.id.cv1);
         }
     }
 }
