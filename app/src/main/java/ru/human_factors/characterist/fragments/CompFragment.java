@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import ru.human_factors.characterist.R;
+import ru.human_factors.characterist.adapters.CompRVAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,15 +28,17 @@ public class CompFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_comp_list, container, false);
 
-        if (view instanceof RecyclerView) {
+//        if (view instanceof RecyclerView) {
             Context context = view.getContext();
-            RecyclerView recyclerView = (RecyclerView) view;
+//            RecyclerView recyclerView = (RecyclerView) view;
+        RecyclerView recyclerView = (RecyclerView)view.findViewById(R.id.competentions_rv);
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
+
 // TODO: сюда поставить адаптер
             // specify an adapter (see also next example)
-//            mAdapter = new MyAdapter(myDataset);
-//            mRecyclerView.setAdapter(mAdapter);
-        }
+            CompRVAdapter mAdapter = new CompRVAdapter();
+            recyclerView.setAdapter(mAdapter);
+//        }
         return view;
 
 
