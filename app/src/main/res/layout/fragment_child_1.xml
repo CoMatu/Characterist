@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/cv1"
+    android:id="@+id/child_cv"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <ToggleButton
         android:id="@+id/button3"
         style="@style/Base.Widget.AppCompat.Button.Borderless"
-        android:checked="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/button_on_off"
+        android:checked="false"
         android:fontFamily="sans-serif"
         android:paddingBottom="3dp"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="#828282"
-        android:textOff="опыт и профессиональные знания"
-        android:textOn="опыт и профессиональные знания"
+        android:textOff="Опыт и профессиональные знания"
+        android:textOn="Опыт и профессиональные знания"
         android:textSize="14sp"
         android:typeface="normal" />
 </android.support.v7.widget.CardView>

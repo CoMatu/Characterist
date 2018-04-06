@@ -39,6 +39,7 @@ public class CompFragment extends Fragment {
             // specify an adapter (see also next example)
             CompRVAdapter mAdapter = new CompRVAdapter();
             recyclerView.setAdapter(mAdapter);
+            recyclerView.setHasFixedSize(true);
 //        }
         return view;
 
